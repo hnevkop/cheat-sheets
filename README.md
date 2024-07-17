@@ -1,3 +1,3 @@
 # Repository with various cheat sheets and commands 
 
-Docker /docker-commands
+Free to use, free to distribute. No guarantee. 
