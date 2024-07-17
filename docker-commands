@@ -10,3 +10,7 @@ docker run -d -p80:8080 hnevkop/vozam
 docker rmi <none>
 docker logs -f 1824ef0f3ecd88d21c81a52675d8d9d45e17905fcdd7ed2a9912a3002fdfa033
 docker info
+
+docker build -t <image_name>
+docker build -t <image_name> . –no-cache
+docker container stats
