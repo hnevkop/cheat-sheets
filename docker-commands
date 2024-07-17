@@ -1,0 +1,12 @@
+DOCKER:
+docker images
+docker images ls
+docker container ls
+docker ps
+docker ps --all
+docker buildx build -t vozam-1:1.0.0 .
+docker run -d -p 1521:1521 -e ORACLE_PASSWORD=RefAdm1234 -v oracle-volume:/opt/oracle/oradata gvenzl/oracle-xe
+docker run -d -p80:8080 hnevkop/vozam
+docker rmi <none>
+docker logs -f 1824ef0f3ecd88d21c81a52675d8d9d45e17905fcdd7ed2a9912a3002fdfa033
+docker info
