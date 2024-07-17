@@ -1,0 +1,21 @@
+kubectl get pods
+kubectl describe pod <pod_name>
+kubectl get deployments
+kubectl get services
+
+// log into the pod
+kubectl exec -it <pod_name> /bin/bash
+
+// get logs
+kubectl logs <pod_name>
+
+// scale
+kubectl scale --replicas=<number_of_replicas> deployment/<deployment_name>
+
+
+kubectl get nodes
+kubectl get all
+kubectl get pod <pod_name> -o yaml
+
+// deployment
+kubectl rollout status deployment/<deployment_name>
