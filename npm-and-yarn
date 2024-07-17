@@ -1,0 +1,24 @@
+npm install: Install all the dependencies defined in the package.json file.
+npm install <package_name>: Install a specific package to the project.
+npm install -g <package_name>: Install a specific package globally.
+npm uninstall <package_name>: Remove a specific package from the project.
+npm update <package_name>: Update a specific package.
+npm list: List the installed packages.
+npm run <script_name>: Run a script defined in package.json.
+npm -v: Show the installed version of npm.
+npm init: Initialize a new npm project and creates a new package.json file.
+npm init -y: Create a new package.json file with everything set to default.
+npm start: Run the app in the development mode.
+
+
+yarn: Install all the dependencies defined in the package.json file.
+yarn add <package_name>: Install a specific package to the project.
+yarn global add <package_name>: Install a specific package globally.
+yarn remove <package_name>: Remove a specific package from the project.
+yarn upgrade <package_name>: Upgrade a specific package.
+yarn list: List the installed packages.
+yarn run <script_name>: Run a script defined in package.json.
+yarn -v: Show the installed version of yarn.
+yarn init: Initialize a new yarn project and creates a new package.json file.
+yarn init -y: Create a new package.json file with everything set to default.
+yarn start: Run the app in the development mode.
