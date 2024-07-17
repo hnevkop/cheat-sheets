@@ -1,0 +1,19 @@
+MAVEN
+mvn dependency:tree
+mvn dependency:analyze
+mvn clean install -Dmaven.test.skip=true
+force:
+mvn clean install -U
+mvn clean
+mvn compiler:compile
+mvn compiler:testCompile
+mvn package
+mvn validate
+mvn dependency:tree
+mvn dependency:analyze
+mvn archetype:generate
+mvn site:site
+mvn test
+mvn verify
+mvn -Dmaven.test.skip=true package
+mvn dependency:purge-local-repository
